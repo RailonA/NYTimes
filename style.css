@@ -131,8 +131,6 @@ width: 100%;
 }
 .social-media p,
 .social-media h5 {
-  margin:0;
-  padding:0;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
@@ -170,8 +168,7 @@ width: 100%;
   font-weight: bold;
 }
 p{
-  display: flex;
-  justify-content: space-between;
+  display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -183,7 +180,7 @@ h5 {
 
 }
 
-
+/* 
 .col-two{
   width:25%;
   display: flex;
@@ -198,6 +195,7 @@ h5 {
   width: 80px;;
   margin: 800px 10px 0px 20px;
 }
+
 .sidebar-section {
   display: flex;
   flex-direction: row;
@@ -210,4 +208,4 @@ h5 {
 }
 .thumbnails {
   width: 80px
-}
+} */
