@@ -22,6 +22,11 @@ display: inline-flex;
 .nav-right{
   display: inline-flex;
 }
+.nav-right button {
+  background-color:#3A6C92;
+  color: white;
+  font-weight: bold;
+}
 main {
   }
 .front {
@@ -45,6 +50,26 @@ figure img{
 figure p {
   width: 50%;
 }
+figure h2 {
+  display: flex;
+    justify-content: center;
+  color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+        margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+figure span {
+  opacity: 70%;
+}
 .article {
   display: flex;
   justify-content: center;
@@ -62,12 +87,11 @@ figure p {
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
-]
+
 .author {
   display: flex;
+  font-weight: bold;
 }
-
-
 
 .icon-container{
   display: flex;
@@ -96,7 +120,8 @@ figure p {
   font-weight: bold;
 }
 p{
-  display: block;
+  display: flex;
+  justify-content: space-between;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -113,7 +138,7 @@ h5 {
   flex-direction: column;
   flex-wrap: nowrap;
   width: 20%;
-  margin: 800px 60px 0px 20px;
+  margin: 800px 10px 0px 20px;
 }
 .sidebar-section {
   display: flex;
