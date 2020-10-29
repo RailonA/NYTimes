@@ -2,36 +2,48 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+body {
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  color: #333;
+}
 header nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  padding: ;
 }
-.nav-left, h2{
-display: flex;
+.nav-left{
+display: inline-flex;
 }
 .nav-center{
-  display: flex;
+  display: inline-flex;
 
 }
 .nav-right{
-  display: flex;
+  display: inline-flex;
 }
 main {
-
-}
-
-figure img{ 
-  width:60%;
+  }
+.front {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  justify-items: center;
+  justify-self: center;
 }
 figure{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+figure img{ 
+  width:60%;
+  display: flex;
+  justify-content: center;
+}
+figure p {
+  width: 50%;
 }
 .article {
   display: flex;
@@ -45,6 +57,12 @@ figure{
 .social-media > span {
   text-align: right;
 }
+.social-media p,
+.social-media h5 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+]
 .author {
   display: flex;
 }
@@ -66,4 +84,43 @@ figure{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
+}
+.create-account {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.blue-words {
+  color: blue;
+  font-weight: bold;
+}
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h5 {
+  font-weight: 700;
+
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 20%;
+  margin: 800px 60px 0px 20px;
+}
+.sidebar-section {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+
+}
+.thumbnails {
+  width: 80px
 }
