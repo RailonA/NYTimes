@@ -10,13 +10,17 @@ body {
   color: #333;
 align-content: center;
 }
-
+header{
+  position: fixed;
+width:100%;
+}
 header nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid black;
   height:45px;
+  background-color: white;
   border-color: rgb(191, 191, 191);
 }
 
@@ -195,7 +199,6 @@ h5 {
   width: 80px;;
   margin: 800px 10px 0px 20px;
 }
-
 .sidebar-section {
   display: flex;
   flex-direction: row;
@@ -209,3 +212,41 @@ h5 {
 .thumbnails {
   width: 80px
 } */
+
+
+.center-image {
+  position: static;
+}
+.center-image img{
+  width:945px;
+}
+
+.container{
+  display: grid;
+  width:945px;
+  height:576px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  background-image: url("./assets/inflation-945.png");
+}
+
+.item1{
+grid-column: 1/2;
+grid-row:2/3;
+}
+.item2{
+}
+.item3{
+
+}
+.item4{
+  }
+.item5{
+  }
+.item6{
+}
+.item7{
+}
+.item8{
+}
+
