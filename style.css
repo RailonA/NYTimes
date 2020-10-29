@@ -1,0 +1,19 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-left, h2{
+display: flex;
+}
+.nav-center{
+  display: flex;
+
+}
+.nav-right{
+  display: flex;
+}
