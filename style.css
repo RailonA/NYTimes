@@ -214,39 +214,64 @@ h5 {
 } */
 
 
-.center-image {
-  position: static;
-}
-.center-image img{
-  width:945px;
+
+.container{
+  width:900px;
+  height: 25%;
+ 
 }
 
 .container{
   display: grid;
-  width:945px;
-  height:576px;
+  width:1890px;
+  height: 25%;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
-  background-image: url("./assets/inflation-945.png");
+  grid-template-rows: 25% 25% 25% 25% ;
 }
 
-.item1{
-grid-column: 1/2;
-grid-row:2/3;
-}
-.item2{
-}
-.item3{
 
+
+
+.container > img {
+  object-fit: cover;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
+
+
 .item4{
+  background-color: black;
+  grid-column: 1/ 2;
+  grid-row:2/2;
   }
 .item5{
+  background-color: teal;
+
   }
 .item6{
+  background-color: red;
+
 }
 .item7{
-}
-.item8{
-}
+  background-color:blue;
 
+}
+.item11{
+  background-color:blue;
+
+}
+.item12{
+  background-color: black;
+  }
+.item13{
+  background-color: teal;
+
+  }
+.item14{
+  background-color: red;
+
+}
+.item15{
+
+}
