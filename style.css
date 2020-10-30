@@ -232,14 +232,16 @@ h5 {
 }
 .container > div {
   font-family: nyt-franklin, arial,helvetica,sans-serif;
-    font-size: 12px;
-    line-height: 17px;
-    font-weight: 200;
-    color: black;
-    opacity: 90%;
-}
-.container > img {
-  object-fit: cover;
+    fo.blue-button {
+      background-color:#3A6C92;
+      color: white;
+      font-weight: bold;
+      border:transparent;
+      margin:15px;
+      padding:10px;
+      border-radius: 5px; 
+      font-size: 10px;
+    }ect-fit: cover;
   background-repeat: no-repeat;
   background-size: auto;
   
@@ -299,11 +301,6 @@ h5 {
   grid-column: 1/1;
   grid-template-rows: 414px 673px 364px ;
 }
-.side-bar-container {
-  display: grid;
-  grid-column:2/2;
-}
-
 .first-row{
   display: grid;
   grid-row: 1/1;
@@ -315,7 +312,8 @@ h5 {
   display: flex;
   grid-column: 1/4;
   grid-row: 1/1;
-justify-content: space-between;
+  justify-content: space-between;
+border-top: 1px solid black;
 }
 
 .first-row-element-1{
@@ -354,7 +352,6 @@ height:244px;
 .row-element-2-container h3{
   margin:0px;
 }
-
 .first-row-element-3{
   grid-column: 3/3;
   grid-row:2/2;
@@ -363,7 +360,6 @@ height:244px;
 }
 .first-row-element-3 a{
   padding:0px 0 0 0;
-
 }
 .row-element-3-container{
 display: flex;
@@ -373,10 +369,6 @@ height:244px;
 .row-element-3-container h3{
   margin:0px;
 }
-
-
-
-
 .row-element-img-row img{
   width:30%;
 }
@@ -398,33 +390,63 @@ height:244px;
   background-color: black;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .first-row-element-bottom{
   grid-column: 2/2;
   grid-row:3/3;
-
 }
-
-
+.black-button {
+  background-color:#121212;
+  color: white;
+  width:284px;
+  font-weight: bold;
+  border:transparent;
+  margin:15px 0 0 0;
+  padding:10px;
+  border-radius: 5px; 
+  font-size: 10px;
+}
 
 
 
 
 .second-row{
-  width:852px;
-
+  display: grid;
+  grid-row: 2/2;
+  grid-template-columns: 284px 284px 284px;
+  grid-template-rows: 293px 293px;
 }
+.second-row-element-1{
+  grid-column: 1/1;
+  grid-row:1/1;
+  padding:15px;
+}
+
+.second-row-element-1 img{
+ width:100%;
+ height:181px;
+}
+
+.second-row-element-1 h3{
+margin-bottom: 0;
+ }
+ .second-row-element-1 p{
+  margin: 0;
+  font-size: 10px;
+   }
+   
+  
+
+
+
+
 .third-row{
   width:852px;
+}
+
+.side-bar-container {
+  display: grid;
+  grid-column:2/2;
+}
+.side-bar-container-top{
+  height:40px;
 }
