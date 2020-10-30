@@ -8,11 +8,12 @@ cursor: pointer;
 body {
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
   color: #333;
-align-content: center;
 }
+
+
 header{
   position: fixed;
-width:100%;
+  width:100%;
 }
 header nav{
   display: flex;
@@ -60,15 +61,13 @@ header nav{
   margin:15px;
   padding:10px;
   border-radius: 5px; 
-font-size: 10px;
+  font-size: 10px;
 }
 
 
 
 main {
-   display: flex;
-   flex-direction: column;
-   align-items: center;  
+
   }
 .front {
   display: flex;
@@ -82,11 +81,13 @@ figure{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
 }
 figure img{ 
   width:70%;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 figure p {
   width: 70%;
@@ -117,18 +118,14 @@ figure span {
 
 
 .article {
-  display: flex;
-  justify-content: center;
 width: 100%;
 }
 
 .social-media {
-  width:50%;
-  margin:0;
+  width: 600px;
+  margin:auto;
   padding:0;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 2;
+  display: block;
 }
 .social-media > span {
   text-align: right;
@@ -168,7 +165,7 @@ width: 100%;
 }
 
 .blue-words {
-  color: blue;
+  color: #3A6C92;
   font-weight: bold;
 }
 p{
@@ -181,96 +178,96 @@ p{
 
 h5 {
   font-weight: 700;
-
-}
-
-/* 
-.col-two{
-  width:25%;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 1;
- 
 }
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  width: 80px;;
-  margin: 800px 10px 0px 20px;
+  position: absolute;
+  top: 1500px;
+  left:80%;
+  width: 200px;
+}
+.sidebar h6 {
+  padding-bottom: 7px;
+  border-bottom: 1px solid rgb(141, 139, 139);
 }
 .sidebar-section {
   display: flex;
   flex-direction: row;
   height: 80px;
+  margin-top: 10px;
 }
 .sidebar-section > a {
   display: flex;
   flex-direction: row;
- width:2px;
+ width:200px;
 }
 .thumbnails {
   width: 80px
-} */
+} 
 
 
-
-.container{
-  width:900px;
-  height: 25%;
- 
-}
 
 .container{
   display: grid;
-  width:1890px;
-  height: 25%;
+  width:945px;
+  height: 576px;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 25% 25% 25% 25% ;
+
+ 
 }
-
-
-
-
+.container00{
+  width: 1000px;
+  margin: auto;
+}
+.container > div {
+  font-family: nyt-franklin, arial,helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 200;
+    color: black;
+    opacity: 90%;
+}
 .container > img {
   object-fit: cover;
-  position: fixed;
   background-repeat: no-repeat;
   background-size: auto;
+  
+}
+.photo > img {
+  width: 945px;
 }
 
-
 .item4{
-  background-color: black;
   grid-column: 1/ 2;
   grid-row:2/2;
   }
 .item5{
-  background-color: teal;
-
+  grid-column: 2/ 3;
+  grid-row:2/2;
   }
 .item6{
-  background-color: red;
-
+  grid-column: 3/ 4;
+  grid-row:2/2;
 }
 .item7{
-  background-color:blue;
-
+  grid-column: 4/ 4;
+  grid-row:2/2;
 }
 .item11{
-  background-color:blue;
-
+  grid-column: 1/ 1;
+  grid-row:4/4;
 }
 .item12{
-  background-color: black;
+  grid-column: 2/ 2;
+  grid-row:4/4;
   }
 .item13{
-  background-color: teal;
-
+  grid-column: 3/ 3;
+  grid-row:4/4;
   }
 .item14{
-  background-color: red;
-
+  grid-column: 4/ 4;
+  grid-row:4/4;
 }
 .item15{
 
