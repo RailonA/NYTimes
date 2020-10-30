@@ -571,3 +571,80 @@ footer nav{
   display: inline-flex;
   margin-right:60px;
 }
+
+
+
+
+
+  
+  
+.side-icons{
+  height:15px;
+  margin: 0px 10px 0px 0px;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:980px;
+  border-top: 2px solid lightgrey;
+}
+.footer-top-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;;
+}
+.footer-top-nav p{
+  font-size: 12px;
+  color:grey;
+}
+
+.footer-logo{
+height:30px;
+margin-left: 30px;;
+}
+.footer-div{
+  display: flex;
+  flex-direction: row;
+  width:1500px;
+}
+.footer-div div{
+  width:150px;
+  margin-left: 30px;
+}
+.footer-div div, p{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+} 
+.footer-right-column{
+margin-left: 150px;
+border-left: 1px solid lightgray; 
+padding-left: 10px;
+}
+.footer-right-column h3{
+width: 200px;
+  }
+.footer-right-column p{
+font-size: 13px;   
+}
+      
+.chinese-wording{
+color:black;
+}
+
+.bottom-nav{
+display: flex;
+flex-direction: row;
+margin: 60px 30px;
+
+}
+.bottom-nav p{
+font-size: 12px;
+opacity: 80%;
+padding:0 6px;
+  }
