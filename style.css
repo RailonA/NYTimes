@@ -277,6 +277,57 @@ h5 {
   grid-column: 4/ 4;
   grid-row:4/4;
 }
-.item15{
 
+
+.element{
+  width:1545px;
+}
+
+.element-container{
+  display: grid;
+  width:1292px;
+  height: 1537px;
+  grid-template-columns: 852px 318px;
+  grid-template-rows: ;
+}
+
+.first-row{
+  width:852px;
+  height:410px;
+  grid-template-columns: 284px 284px 284px;
+  grid-template-rows: 50px 323px 38px;
+}
+
+.first-row-element-top{
+display: flex;
+justify-content: space-between;
+}
+
+.first-row-element-1{
+
+}
+.first-row-element-1 img{
+width:15%;
+
+}
+.first-row-element-2{
+  
+}
+.first-row-element-3{
+  
+}
+.first-row-element-bottom{
+  
+}
+
+
+
+
+
+
+.second-row{
+  width:852px;
+}
+.third-row{
+  width:852px;
 }
