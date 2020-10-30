@@ -8,6 +8,9 @@ cursor: pointer;
 body {
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
   color: #333;
+  max-width: 1545px;
+  min-width: 1545px;
+  width:1545px;
 }
 
 
@@ -280,30 +283,46 @@ h5 {
 
 
 .element{
+  display: grid;
   width:1545px;
+  grid-template-columns: 126px 1292px 127px;
 }
 
 .element-container{
   display: grid;
   width:1292px;
-  height: 1537px;
+  grid-column: 2/2;
   grid-template-columns: 852px 318px;
-  grid-template-rows: ;
+}
+.left-main-container{
+  display: grid;
+  grid-column: 1/1;
+  grid-template-rows: 414px 673px 364px ;
+}
+.side-bar-container {
+  display: grid;
+  grid-column:2/2;
 }
 
 .first-row{
-  width:852px;
-  height:410px;
+  display: grid;
+  grid-row: 1/1;
   grid-template-columns: 284px 284px 284px;
-  grid-template-rows: 50px 323px 38px;
+  grid-template-rows: 54px 323px 38px;
 }
 
 .first-row-element-top{
-display: flex;
+  grid-column: 1/4;
+  grid-row: 1/1;
 justify-content: space-between;
 }
 
 .first-row-element-1{
+  grid-column: 1/1;
+  grid-row:2/2;
+
+}
+.first-row-element-1 > img,{
 
 }
 .first-row-element-1 img{
@@ -311,13 +330,19 @@ width:15%;
 
 }
 .first-row-element-2{
+  grid-column: 2/2;
+  grid-row:2/2;
   
 }
 .first-row-element-3{
+  grid-column: 3/3;
+  grid-row:2/2;
   
 }
 .first-row-element-bottom{
-  
+  grid-column: 2/2;
+  grid-row:3/3;
+
 }
 
 
@@ -327,6 +352,7 @@ width:15%;
 
 .second-row{
   width:852px;
+
 }
 .third-row{
   width:852px;
