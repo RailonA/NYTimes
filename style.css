@@ -100,6 +100,7 @@ figure img{
 figure p {
   display: flex;
   flex-direction: column;
+  width: 93%;
 }
 figure h2 {
   display: flex;
@@ -454,8 +455,7 @@ height:244px;
   width:284px;
   font-weight: bold;
   border:transparent;
-  margin:15px 0 0 0;
-  padding:10px;
+  padding:10px 40px;
   border-radius: 5px; 
   font-size: 10px;
 }
