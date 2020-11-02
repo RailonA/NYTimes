@@ -29,7 +29,7 @@ We made a clone of the New York Times page. The page works best on a 1366x768 re
 
 - GitHub: [@realisticattorney](https://github.com/realisticattorney)
 - Linkedin: [@germanaquila](https://www.linkedin.com/in/german-aquila-55a9171b5/)
-- Twiter: [@ContoliAxl](www.twitter.com/contoliaxl)
+- Twiter: [@ContoliAxl](https://www.twitter.com/contoliaxl)
 
 ## 🤝 Contributing
 

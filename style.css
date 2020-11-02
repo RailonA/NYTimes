@@ -103,6 +103,7 @@ body {
   justify-self: center;
   overflow-x: hidden;
 }
+
 a {
   color: black;
 }
@@ -167,10 +168,8 @@ header nav {
 
 .nav-left b {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
+  margin-block: 1em / 1em;
+  margin-inline: 0 / 0;
   font-family: helvetica, arial, sans-serif;
   font-weight: 700;
   letter-spacing: 0.7px;
@@ -354,18 +353,18 @@ h5 {
 }
 
 .read-button {
-display: flex;
-background-color: #3a6c92;
-color: white;
-width: 284px;
-font-weight: bold;
-border: transparent;
-padding: 12px 0px;
-border-radius: 5px;
-font-size: 12px;
-text-align: center;
-margin: 20px 0;
-justify-content: center;
+  display: flex;
+  background-color: #3a6c92;
+  color: white;
+  width: 284px;
+  font-weight: bold;
+  border: transparent;
+  padding: 12px 0px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+  margin: 20px 0;
+  justify-content: center;
 }
 
 .icon-container00 {
