@@ -218,7 +218,7 @@ h5 {
   width: 150px;
   margin: 120px;
   margin-top: 600px;
-  justify-self: self-start;
+  float: inline-start;
 }
 .sidebar h6 {
   padding-bottom: 7px;
