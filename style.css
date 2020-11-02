@@ -542,7 +542,9 @@ margin-bottom: 0;
   justify-content: space-between;
 border-top: 1px solid black;
 }
-h8 {
+
+.second-row-element-top > span
+.third-row-element-top > span  {
   font-size: 14px;
   font-weight: bold;
   margin: 30px 0 0 15px ;
@@ -572,7 +574,7 @@ border-top: 1px solid black;
   font-weight: 550;
    text-size-adjust: 100%;
 }
-.side-bar-container-body > a > h9 {
+.side-bar-container-body > a > span {
    font: inherit;
     vertical-align: baseline;
     margin-block-start: 1em;
