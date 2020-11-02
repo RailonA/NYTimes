@@ -692,6 +692,9 @@ padding: 15px 0 0 0;
   font-weight: 500;
   line-height: 16px;
 } 
+h3{
+  font-size: 20px;
+}
 .footer-right-column{
 margin-left: 150px;
 border-left: 1px solid lightgray; 
