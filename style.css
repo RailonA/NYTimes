@@ -122,9 +122,12 @@ figure span {
 
 .article {
 width: 100%;
+display:grid;
+grid-template-columns: 25% 50% 25%;
 }
 
 .social-media {
+  grid-column: 2/3;
   width: 600px;
   margin:auto;
   padding:0;
@@ -190,10 +193,14 @@ h5 {
   font-weight: 700;
 }
 .sidebar {
-  position: absolute;
-  top: 1500px;
-  left:80%;
-  width: 200px;
+  grid-column:3/3;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  width: 150px;
+  margin: 30px;
+  margin-top: 600px;;
+
 }
 .sidebar h6 {
   padding-bottom: 7px;
@@ -208,7 +215,7 @@ h5 {
 .sidebar-section > a {
   display: flex;
   flex-direction: row;
- width:200px;
+ width:150px;
 }
 .thumbnails {
   width: 80px
@@ -287,15 +294,22 @@ h5 {
 
 .element{
   display: grid;
-  width:1545px;
-  grid-template-columns: 126px 1292px 127px;
+  width:100%;
+  grid-template-columns: 25% 50% 25%;
+  justify-content: center;
 }
-
+.element01{
+  grid-column: 1/1;
+}
+.element04{
+  grid-column: 3/3;
+}
 .element-container{
   display: grid;
   width:1292px;
   grid-column: 2/2;
   grid-template-columns: 852px 318px;
+  justify-self: center;
 }
 .left-main-container{
   display: grid;
@@ -583,23 +597,34 @@ footer nav{
   margin: 0px 10px 0px 0px;
 }
 
-
+.footer-container{
+  display: grid;
+  width:100%;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows:auto auto;
+  justify-content: center;
+}
 .footer{
-  display: flex;
+  display: grid;
+  grid-column: 2/3;
   flex-direction: column;
   justify-content: space-around;
   width:980px;
   border-top: 2px solid lightgrey;
+justify-self: center;
+margin-top: 60px;
 }
 .footer-top-nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 20px;;
+  margin: 30px 0 40px 0;
 }
 .footer-top-nav p{
   font-size: 12px;
   color:grey;
+  margin-right: 300px;
+  width: 150px;
 }
 
 .footer-logo{
@@ -638,6 +663,9 @@ color:black;
 }
 
 .bottom-nav{
+  display: grid;
+  grid-column: 2/2;
+  grid-row:2/2;
 display: flex;
 flex-direction: row;
 margin: 60px 30px;
@@ -647,4 +675,5 @@ margin: 60px 30px;
 font-size: 12px;
 opacity: 80%;
 padding:0 6px;
+width:300px;
   }
