@@ -712,7 +712,7 @@ h3 {
   grid-template-rows: 54px auto;
   padding: 0 15px 0 15px;
   margin-left: 40px;
-  float:right;
+  float: right;
 }
 
 .side-bar-container-top {
@@ -838,16 +838,13 @@ footer nav {
 .footer-div h3 {
   font-size: 20px;
   font-weight: bold;
-
 }
 
 .footer-div p {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 14px;
-  font-weight: 500;
   line-height: 16px;
   font-weight: bold;
-
 }
 
 .footer-right-column {
@@ -862,7 +859,7 @@ footer nav {
 
 .footer-right-column p {
   font-size: 13px;
-  width:200px;
+  width: 200px;
   font-weight: bold;
 }
 
