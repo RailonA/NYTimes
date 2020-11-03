@@ -162,14 +162,14 @@ header nav {
 }
 
 .nav-left i {
-  margin: 15px;
+  margin: 8px 20px 15px 10px;
   height: 1px;
 }
 
 .nav-left b {
-  display: block;
-  margin-block: 1em;
-  margin-inline: 0;
+  display: flex;
+  align-content: center;
+  margin-top: 8px;
   font-family: helvetica, arial, sans-serif;
   font-weight: 700;
   letter-spacing: 0.7px;
@@ -664,52 +664,20 @@ h3 {
   border-top: 1px solid black;
 }
 
-.second-row-element-1-column-1,
-.second-row-element-1-column-2,
-.second-row-element-1-column-3,
-.second-row-element-2-column-1,
-.second-row-element-2-column-2,
-.second-row-element-2-column-3,
-.third-row-element-1-column-1,
-.third-row-element-1-column-2,
-.third-row-element-1-column-3 {
+.padd {
   padding: 15px;
 }
 
-.second-row-element-1-column-1 img,
-.second-row-element-1-column-2 img,
-.second-row-element-1-column-3 img,
-.second-row-element-2-column-1 img,
-.second-row-element-2-column-2 img,
-.second-row-element-2-column-3 img,
-.third-row-element-1-column-1 img,
-.third-row-element-1-column-2 img,
-.third-row-element-1-column-3 img {
+.padd > img {
   width: 100%;
   height: 181px;
 }
 
-.second-row-element-1-column-1 h3,
-.second-row-element-1-column-2 h3,
-.second-row-element-1-column-3 h3,
-.second-row-element-2-column-1 h3,
-.second-row-element-2-column-2 h3,
-.second-row-element-2-column-3 h3,
-.third-row-element-1-column-1 h3,
-.third-row-element-1-column-2 h3,
-.third-row-element-1-column-3 h3 {
+.padd > h3 {
   margin-bottom: 0;
 }
 
-.second-row-element-1-column-1 p,
-.second-row-element-1-column-2 p,
-.second-row-element-1-column-3 p,
-.second-row-element-2-column-1 p,
-.second-row-element-2-column-2 p,
-.second-row-element-2-column-3 p,
-.third-row-element-1-column-1 p,
-.third-row-element-1-column-2 p,
-.third-row-element-1-column-3 p {
+.padd > p {
   margin: 0;
   font-size: 10px;
 }
